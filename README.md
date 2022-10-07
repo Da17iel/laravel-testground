@@ -26,7 +26,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## About this Project
 
-This is a project I created to souly learn Laravel and some of it's features.
+This is a project I created to souly learn Laravel and some of it's features. Also this project wasn't initially pushed to GitHub. That's why the whole project was uploaded in one go.
 Here I will present some of the featues I programmed into the application. 
 - Register as a User
 - Login as a User
