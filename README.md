@@ -24,6 +24,39 @@ many web projects, such as:
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## About this Project
+
+This is a project I created to souly learn Laravel and some of it's features.
+Here I will present some of the featues I programmed into the application. 
+- Register as a User
+- Login as a User
+- Edit your own Profile
+- Create and view Posts
+- Upload Posts with images
+- Comment on said posts
+- Comment on other comments
+- Route on all needed sites
+
+### How to Install yourself
+
+To Install laravel you will have to follow following steps:
+- Install npm, composer and php
+- Enable File Extensions (Uncomment in php.ini extension=fileinfo)
+- Enable the MySQL Driver if you want to run it on a MySQL DataBase (Uncomment in php.ini extension=pdo_mysql)
+- Download this repository somewhere on your computer
+- Rename the .env.example to .env
+- In the .env File you can fill in the DB data. Example: <code>DB_CONNECTION=mysql</code> and so on.
+- Now open the cmd and go into your Project location
+- Type in following commands
+  - <code>npm install</code>
+  - <code>composer install</code>
+  - <code>php artisan generate:key</code>
+  - <code>php artisan storage:link</code>
+  - <code>php artisan migrate:fresh --seed</code>
+  - <code>php artisan serve</code>
+
+And now your code should be up and running. 
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all
