@@ -1,0 +1,71 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+h1 {
+    @apply mt-14 mb-6 uppercase text-5xl text-yellow-500;
+}
+
+h2 {
+    @apply capitalize text-3xl text-yellow-500;
+}
+
+a {
+    @apply hover:underline hover:text-red-500
+}
+
+p {
+    @apply leading-7 tracking-wide
+}
+
+.users {
+    @apply shadow-lg p-6 border rounded inline-block max-w-sm m-2 bg-white transition duration-200 hover:shadow-2xl;
+}
+
+.posts {
+    @apply shadow-sm border inline-block w-2/5 m-2 bg-white transition duration-300 hover:shadow-md;
+}
+
+input[type=file]::file-selector-button {
+    @apply bg-gray-800 text-white border-0 font-bold p-3;
+}
+
+input[type=file]::file-selector-button:hover {
+    @apply bg-black;
+}
+
+input[type=file] {
+    @apply border-2 border-gray-800;
+}
+
+.hoverChild {
+    @apply  relative inline-block;
+}
+
+.hoverChildContent {
+    @apply p-6 absolute hidden border-2 border-gray-300 bg-white rounded flex flex-initial flex-row-reverse;
+}
+
+.showContent {
+    display: block;
+}
+
+.PersonalPost {
+    @apply shadow-lg rounded-2xl border-2 border-gray-200 w-2/3 grid bg-white;
+}
+
+.margin-top + .margin-top {
+    @apply mt-6;
+}
+
+.textBoxForm {
+    @apply text-left;
+}
+
+.hide-replyBox {
+    @apply hidden transition duration-1000 ease-in-out;
+}
+
+.host-comment:hover .hide-replyBox {
+    @apply block;
+}
